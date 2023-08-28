@@ -66,20 +66,60 @@
 		8A555A112A98D5FC00FA0B7F /* ModernCellConfiguration */ = {
 			isa = PBXGroup;
 			children = (
+				8A9472472A9CF94800DA191F /* App */,
+				8A9472482A9CF95600DA191F /* Model */,
+				8A9472462A9CF92800DA191F /* TableView */,
+				8A9472492A9CF96A00DA191F /* CollectionView */,
+				8A94724A2A9CF98500DA191F /* Resources */,
+			);
+			path = ModernCellConfiguration;
+			sourceTree = "<group>";
+		};
+		8A9472462A9CF92800DA191F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				8A555A162A98D5FC00FA0B7F /* ViewController.swift */,
+				8A555A262A98D67B00FA0B7F /* CustomTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		8A9472472A9CF94800DA191F /* App */ = {
+			isa = PBXGroup;
+			children = (
 				8A555A122A98D5FC00FA0B7F /* AppDelegate.swift */,
 				8A555A142A98D5FC00FA0B7F /* SceneDelegate.swift */,
-				8A555A162A98D5FC00FA0B7F /* ViewController.swift */,
-				8A555A2A2A98F84D00FA0B7F /* CollectionListViewController.swift */,
-				8A555A262A98D67B00FA0B7F /* CustomTableViewCell.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A9472482A9CF95600DA191F /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				8A555A282A98F78200FA0B7F /* SFSymbolItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A9472492A9CF96A00DA191F /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8A555A2A2A98F84D00FA0B7F /* CollectionListViewController.swift */,
 				8A555A2C2A99F09700FA0B7F /* SFSymbolContentConfiguration.swift */,
 				8A555A2E2A99F82100FA0B7F /* SFSymbolVerticalContentView.swift */,
 				8A555A302A9CF28500FA0B7F /* SFSymbolVerticalListCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		8A94724A2A9CF98500DA191F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8A555A1B2A98D5FC00FA0B7F /* Assets.xcassets */,
 				8A555A1D2A98D5FC00FA0B7F /* LaunchScreen.storyboard */,
 				8A555A202A98D5FC00FA0B7F /* Info.plist */,
 			);
-			path = ModernCellConfiguration;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JZ3AHZ382V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ModernCellConfiguration/Info.plist;
+				INFOPLIST_FILE = ModernCellConfiguration/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -328,7 +368,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JZ3AHZ382V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ModernCellConfiguration/Info.plist;
+				INFOPLIST_FILE = ModernCellConfiguration/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
